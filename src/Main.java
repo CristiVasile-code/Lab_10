@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Rezultatul scaderii dintre 6 si 3 este: " + scadere(6,3));
         System.out.println("Rezultatul inmultirii dintre 3 si 9 este: " + inmultire(3,9));
         operatii();
-        /*viteze(90000, 1, 0, 0);
+        viteze(90000, 1, 0, 0);
         text();
         System.out.println(" ");
         face();
@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Restul impartirii celor 2 numere este: " + rest(8,5));
         System.out.println("Conversia din grade Farenheit in grade Celsius: " + conversie(200));
         System.out.println("Conversia in metri din inch este: " + inchToMeters(5));
-*/
+
     }
     static void text(){
         System.out.println("   J    a   v     v  a");
