@@ -1,6 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        viteze(90000, 1, 0, 0);
+        hello();
+        System.out.println("Rezultatul operatiei de adunare dintre 4 si 56 este: " + adunare(4,56));
+        System.out.println("Rezultatul impartirii dintre 34 si 12 este: " + impartire(34,12));
+        System.out.println("Rezultatul scaderii dintre 6 si 3 este: " + scadere(6,3));
+        System.out.println("Rezultatul inmultirii dintre 3 si 9 este: " + inmultire(3,9));
+        operatii();
+        /*viteze(90000, 1, 0, 0);
         text();
         System.out.println(" ");
         face();
@@ -8,7 +14,7 @@ public class Main {
         System.out.println("Restul impartirii celor 2 numere este: " + rest(8,5));
         System.out.println("Conversia din grade Farenheit in grade Celsius: " + conversie(200));
         System.out.println("Conversia in metri din inch este: " + inchToMeters(5));
-
+*/
     }
     static void text(){
         System.out.println("   J    a   v     v  a");
@@ -49,5 +55,34 @@ public class Main {
         System.out.println("Viteza in km pe ora este: " + vitKmperH);
         System.out.println("Viteza in mile pe ora este: " + vitMperH);
 
+    }
+    static void hello(){
+        System.out.println("Hello \nCristi");
+    }
+    static int adunare(int x, int y){
+        int rezAd = x+y;
+        return rezAd;
+    }
+    static float scadere(float x, float y){
+        float rezSc = x - y;
+        return rezSc;
+    }
+    static float impartire(float x, float y){
+        float rezImp = x / y;
+        return rezImp;
+    }
+    static float inmultire(float x, float y){
+        float rezImp = x / y;
+        return rezImp;
+    }
+    static void operatii(){
+        float rezA =  -5 + 8 * 6;
+        float rezB = (55+9) % 9;
+        float rezC = 20 + -3*5f / 8;
+        float rezD = 5 + 15 / 3f * 2 - 8 % 3;
+        System.out.println("Rezultatul operatiei (- 5 + 8 * 6) este: " + rezA);
+        System.out.println("Rezultatul operatiei ((55+9) % 9) este: " + rezB);
+        System.out.println("Rezultatul operatiei (20 + -3*5 / 8) este: " + rezC);
+        System.out.println("Rezultatul operatiei (5 + 15 / 3 * 2 - 8 % 3) este: " + rezD);
     }
 }
